@@ -1,35 +1,70 @@
-# Quant Trading Prediction Model
-This repository contains a Quantitative Trading Prediction Model designed to assist in making data-driven trading decisions. The model uses Principal Component Analysis (PCA) for dimensionality reduction and a short Artificial Neural Network (ANN) to predict trading actions based on both financial and Environmental, Social, and Governance (ESG) data.
+# Getting Started with Create React App
 
-## Project Overview
-The model leverages:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Technical Indicators from historical trading data.
-Chart Analysis for identifying patterns and trends.
-ESG Metrics to incorporate sustainable investment factors, offering a unique, socially-conscious approach to trading.
-By integrating ESG scores, we align our financial model with sustainability metrics, adding a valuable dimension to traditional quant trading approaches.
+## Available Scripts
 
-## Features
-Data Preprocessing:
+In the project directory, you can run:
 
-PCA reduces high-dimensional data for efficient prediction.
-ESG data from MSCI ESG Data API complements trading insights.
-Model Structure:
+### `npm start`
 
-Dual-input ANN model architecture with dense layers, batch normalization, and dropout.
-Designed for binary action prediction based on market conditions.
-## Evaluation:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Tracks accuracy and AUC during training and testing.
-Visualization tools for accuracy/loss trends.
-Requirements
-Python 3.x
-TensorFlow, Scikit-learn, Pandas, Numpy, Matplotlib
-Installation
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-# ESG Integration
-ESG factors offer a holistic approach to market analysis, adding insights on corporate sustainability that can influence long-term performance. The integration helps align quant trading models with values-based investing.
+### `npm test`
 
-# Results
-Achieves predictive accuracy with enhanced market insights through ESG data integration. Results, including model performance plots, are saved to the /results folder.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

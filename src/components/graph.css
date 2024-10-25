@@ -1,0 +1,19 @@
+.graph-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #1c1c1c; /* Background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .graph-container canvas {
+    width: 100% !important;
+    height: auto !important;
+  }
+  
+  .graph-container .chartjs-render-monitor {
+    background-color: #1c1c1c;
+  }
+  
