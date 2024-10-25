@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# Quant Trading Prediction Model
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains a **Quantitative Trading Prediction Model** designed to assist in making data-driven trading decisions. The model uses **Principal Component Analysis (PCA)** for dimensionality reduction and a **short Artificial Neural Network (ANN)** to predict trading actions based on both financial and **Environmental, Social, and Governance (ESG)** data.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Project Overview
 
-### `npm start`
+The model leverages:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Technical Indicators** from historical trading data.
+- **Chart Analysis** for identifying patterns and trends.
+- **ESG Metrics** to incorporate sustainable investment factors, offering a unique, socially-conscious approach to trading.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+By integrating ESG scores, we align our financial model with sustainability metrics, adding a valuable dimension to traditional quant trading approaches.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+### Data Preprocessing
+- **PCA** reduces high-dimensional data for efficient prediction.
+- **ESG data** from MSCI ESG Data API complements trading insights.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Model Structure
+- **Dual-input ANN** model architecture with dense layers, batch normalization, and dropout.
+- Designed for **binary action prediction** based on market conditions.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Evaluation
+- Tracks **accuracy** and **AUC** during training and testing.
+- **Visualization tools** for accuracy/loss trends.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Requirements
+- **Python 3.x**
+- **TensorFlow**, **Scikit-learn**, **Pandas**, **Numpy**, **Matplotlib**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Instructions for installation will go here.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ESG Integration
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**ESG factors** offer a holistic approach to market analysis, adding insights on corporate sustainability that can influence long-term performance. The integration helps align quant trading models with **values-based investing**.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Results
 
-### Analyzing the Bundle Size
+- Achieves **predictive accuracy** with enhanced market insights through ESG data integration.
+- Results, including model performance plots, are saved to the `/results` folder.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## About
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+_No description, website, or topics provided._
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Resources
 
-### Deployment
+- **Readme**
+- **Activity**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## Repository Stats
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Stars:** 0 stars
+- **Watchers:** 1 watching
+- **Forks:** 0 forks
+
+---
+
+## Report Repository
+
+---
+
+## Releases
+_No releases published_
+
+---
+
+## Packages
+_No packages published_
+
+---
+
+## Languages
+- **Python** 100.0%
