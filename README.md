@@ -25,7 +25,11 @@ With ESG scores, we take a socially-conscious approach that adds depth to tradit
 ### 🧠 Model Structure
 - **Dual-input ANN** architecture with dense layers, batch normalization, and dropout.
 - Optimized for **binary action predictions** (e.g., buy/sell) based on market conditions.
-
+  
+## 🤖 Trading Bot Interaction
+- User Queries: Empowers users to ask trade- or stock-related questions, with responses based on predictive insights from the model.
+## 🌐 Real-Time News Insights
+- Sentiment Analysis: Scrapes data from various news platforms, analyzes sentiments, and displays comparative results, offering an in-depth look at public sentiment trends and their potential impact on the market.
 ---
 
 ## 📊 Evaluation
