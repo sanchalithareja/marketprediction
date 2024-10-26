@@ -82,6 +82,9 @@ With enhanced accuracy through ESG data integration, the model provides deeper i
 ### 🤖 Trading Bot
 ![Trading Bot Image Placeholder](images/trade_buddy.png)
 
+## UI
+![UI Image Placeholder](images/ui.jpg)
+
 ---
 
 ## 📂 Repository Details
