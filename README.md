@@ -1,4 +1,3 @@
-```markdown
 # 📈 Quant Trading Prediction Model 📉
 
 Welcome to the **Quantitative Trading Prediction Model** repository! This project combines **Principal Component Analysis (PCA)** for dimensionality reduction and a **short Artificial Neural Network (ANN)** for trading action predictions. 🌟 We use both financial data and **Environmental, Social, and Governance (ESG)** data to bring sustainability into trading. 💹
